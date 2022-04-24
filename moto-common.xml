@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="moto-common"
+        fetch="https://github.com/moto-common/" />
+
+    <!-- Device Trees -->
+    <project path="device/motorola/common" name="android_device_motorola_common"
+        remote="moto-common" revision="12" />
+    <!-- SM4350 (5.4) -->
+    <project path="device/motorola/sm4350-common-kernel" name="android_device_motorola_sm4350-common-kernel"
+        remote="moto-common" revision="12" />
+    <project path="device/motorola/sm4350-common" name="android_device_motorola_sm4350-common"
+        remote="moto-common" revision="12" />
+    <project path="device/motorola/osaka-kernel" name="android_device_motorola_osaka-kernel"
+        remote="moto-common" revision="12" />
+    <project path="device/motorola/osaka" name="android_device_motorola_osaka"
+        remote="moto-common" revision="12" />
+    <!-- SM4250 (4.19) -->
+    <project path="device/motorola/sm4250-common" name="android_device_motorola_sm4250-common"
+        remote="moto-common" revision="12" />
+    <project path="device/motorola/sm4250-common-kernel" name="android_device_motorola_sm4250-common-kernel"
+        remote="moto-common" revision="12" />
+    <project path="device/motorola/borneo" name="android_device_motorola_borneo"
+        remote="moto-common" revision="12" />
+    <project path="device/motorola/caprip" name="android_device_motorola_caprip"
+        remote="moto-common" revision="12" />
+    <project path="device/motorola/guamna" name="android_device_motorola_guamna"
+        remote="moto-common" revision="12" />
+    <!-- SM6125 (4.14) -->
+    <project path="device/motorola/amogus-kernel" name="android_device_motorola_amogus-kernel"
+        remote="moto-common" revision="12" />
+    <project path="device/motorola/amogus" name="android_device_motorola_amogus"
+        remote="moto-common" revision="12" />
+
+    <!-- Vendor Trees -->
+    <project path="vendor/motorola/common" name="vendor_device_motorola_common"
+        remote="moto-common" revision="12" />
+    <!-- SM4350 (5.4) -->
+    <project path="vendor/motorola/sm4350-common" name="vendor_device_motorola_sm4350-common"
+        remote="moto-common" revision="12" />
+    <project path="vendor/motorola/osaka" name="vendor_device_motorola_osaka"
+        remote="moto-common" revision="12" />
+    <!-- SM4250 (4.19) -->
+    <project path="vendor/motorola/sm4250-common" name="vendor_device_motorola_sm4250-common"
+        remote="moto-common" revision="12" />
+    <project path="vendor/motorola/borneo" name="vendor_device_motorola_borneo"
+        remote="moto-common" revision="12" />
+    <project path="vendor/motorola/caprip" name="vendor_device_motorola_caprip"
+        remote="moto-common" revision="12" />
+    <project path="vendor/motorola/guamna" name="vendor_device_motorola_guamna"
+        remote="moto-common" revision="12" />
+    <!-- SM6125 (4.14) -->
+    <project path="vendor/motorola/amogus" name="android_vendor_motorola_amogus"
+        remote="moto-common" revision="12" />
+
+    <!-- Supporting Repos -->
+    <!-- QCOM Common -->
+    <project path="device/qcom/common" name="android_device_qcom_common"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/common" name="android_vendor_qcom_common"
+        remote="moto-common" revision="12" />
+    <!-- HALs -->
+    <project path="vendor/qcom/opensource/audio/sm8150" name="platform_vendor_qcom_opensource_audio_sm8150"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/audio/sm8250" name="platform_vendor_qcom_opensource_audio_sm8250"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/audio/sm8350" name="platform_vendor_qcom_opensource_audio_sm8350"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/display/sm8150" name="platform_vendor_qcom_opensource_display_sm8150"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/display/sm8250" name="platform_vendor_qcom_opensource_display_sm8250"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/display/sm8350" name="platform_vendor_qcom_opensource_display_sm8350"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/display-commonsys-intf" name="platform_vendor_qcom_opensource_display-commonsys-intf"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/media/sm8150" name="platform_vendor_qcom_opensource_media_sm8150"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/media/sm8250" name="platform_vendor_qcom_opensource_media_sm8250"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/media/sm8350" name="platform_vendor_qcom_opensource_media_sm8350"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator"
+        remote="moto-common" revision="12" />
+    <!-- Misc -->
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgrs" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgrs"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/fwk-detect" name="platform_vendor_qcom_opensource_fwk-detect"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/thermal-engine" name="platform_vendor_qcom_opensource_thermal-engine"
+        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/thermal" name="platform_vendor_qcom_opensource_thermal"
+        remote="moto-common" revision="12" />
+</manifest>
