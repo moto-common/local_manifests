@@ -33,21 +33,21 @@
         remote="moto-common" revision="12" />
 
     <!-- Vendor Trees -->
-    <project path="vendor/motorola/common" name="vendor_device_motorola_common"
+    <project path="vendor/motorola/common" name="android_vendor_motorola_common"
         remote="moto-common" revision="12" />
     <!-- SM4350 (5.4) -->
-    <project path="vendor/motorola/sm4350-common" name="vendor_device_motorola_sm4350-common"
+    <project path="vendor/motorola/sm4350-common" name="android_vendor_motorola_sm4350-common"
         remote="moto-common" revision="12" />
-    <project path="vendor/motorola/osaka" name="vendor_device_motorola_osaka"
+    <project path="vendor/motorola/osaka" name="android_vendor_motorola_osaka"
         remote="moto-common" revision="12" />
     <!-- SM4250 (4.19) -->
-    <project path="vendor/motorola/sm4250-common" name="vendor_device_motorola_sm4250-common"
+    <project path="vendor/motorola/sm4250-common" name="android_vendor_motorola_sm4250-common"
         remote="moto-common" revision="12" />
-    <project path="vendor/motorola/borneo" name="vendor_device_motorola_borneo"
+    <project path="vendor/motorola/borneo" name="android_vendor_motorola_borneo"
         remote="moto-common" revision="12" />
-    <project path="vendor/motorola/caprip" name="vendor_device_motorola_caprip"
+    <project path="vendor/motorola/caprip" name="android_vendor_motorola_caprip"
         remote="moto-common" revision="12" />
-    <project path="vendor/motorola/guamna" name="vendor_device_motorola_guamna"
+    <project path="vendor/motorola/guamna" name="android_vendor_motorola_guamna"
         remote="moto-common" revision="12" />
     <!-- SM6125 (4.14) -->
     <project path="vendor/motorola/amogus" name="android_vendor_motorola_amogus"
@@ -80,20 +80,16 @@
         remote="moto-common" revision="12" />
     <project path="vendor/qcom/opensource/media/sm8350" name="platform_vendor_qcom_opensource_media_sm8350"
         remote="moto-common" revision="12" />
-    <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power"
-        remote="moto-common" revision="12" />
     <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb"
         remote="moto-common" revision="12" />
     <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator"
         remote="moto-common" revision="12" />
     <!-- Misc -->
-    <project path="vendor/qcom/opensource/data-ipa-cfg-mgrs" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgrs"
+    <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr"
         remote="moto-common" revision="12" />
-    <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices"
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy"
         remote="moto-common" revision="12" />
-    <project path="vendor/qcom/opensource/fwk-detect" name="platform_vendor_qcom_opensource_fwk-detect"
-        remote="moto-common" revision="12" />
-    <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces"
+    <project path="device/sony/sepolicy" name="android_device_sony_sepolicy"
         remote="moto-common" revision="12" />
     <project path="vendor/qcom/opensource/thermal-engine" name="platform_vendor_qcom_opensource_thermal-engine"
         remote="moto-common" revision="12" />
