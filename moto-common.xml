@@ -5,7 +5,7 @@
 
     <!-- Device Trees -->
     <project path="device/motorola/common" name="android_device_motorola_common"
-        remote="moto-common" revision="12" />
+        remote="moto-common" revision="13" />
     <!-- SM4350 (5.4) -->
     <project path="device/motorola/sm4350-common-kernel" name="android_device_motorola_sm4350-common-kernel"
         remote="moto-common" revision="12" />
@@ -56,16 +56,16 @@
     <!-- Supporting Repos -->
     <!-- QCOM Common -->
     <project path="device/qcom/common" name="android_device_qcom_common"
-        remote="moto-common" revision="12" />
+        remote="moto-common" revision="13" />
     <project path="vendor/qcom/common" name="android_vendor_qcom_common"
-        remote="moto-common" revision="12" />
+        remote="moto-common" revision="13" />
     <!-- HALs -->
     <project path="vendor/qcom/opensource/audio/sm8150" name="platform_vendor_qcom_opensource_audio_sm8150"
-        remote="moto-common" revision="12" />
+        remote="moto-common" revision="13" />
     <project path="vendor/qcom/opensource/audio/sm8250" name="platform_vendor_qcom_opensource_audio_sm8250"
-        remote="moto-common" revision="12" />
+        remote="moto-common" revision="13" />
     <project path="vendor/qcom/opensource/audio/sm8350" name="platform_vendor_qcom_opensource_audio_sm8350"
-        remote="moto-common" revision="12" />
+        remote="moto-common" revision="13" />
     <project path="vendor/qcom/opensource/display/sm8150" name="platform_vendor_qcom_opensource_display_sm8150"
         remote="moto-common" revision="12" />
     <project path="vendor/qcom/opensource/display/sm8250" name="platform_vendor_qcom_opensource_display_sm8250"
