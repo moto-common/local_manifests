@@ -30,7 +30,7 @@
     <project path="device/motorola/amogus-kernel" name="android_device_motorola_amogus-kernel"
         remote="moto-common" revision="12" />
     <project path="device/motorola/amogus" name="android_device_motorola_amogus"
-        remote="moto-common" revision="12" />
+        remote="moto-common" revision="13" />
 
     <!-- Vendor Trees -->
     <project path="vendor/motorola/common" name="android_vendor_motorola_common"
