@@ -128,8 +128,8 @@
         remote="moto-common" revision="12" />
     <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices"
         remote="moto-common" revision="master" />
-    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr"
-        remote="moto-common" revision="12" />
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um"
+        remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/audio/st-hal" name="platform_vendor_qcom_opensource_audio_st-hal"
         remote="moto-common" revision="13" />
     <project path="external/json-c" name="platform_external_json-c"
