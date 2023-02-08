@@ -120,6 +120,8 @@
         remote="moto-common" revision="13" />
     <project path="device/sony/sepolicy" name="android_device_sony_sepolicy"
         remote="moto-common" revision="master" />
+    <project path="vendor/goodix" name="platform_vendor_goodix"
+        remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/thermal-engine" name="platform_vendor_qcom_opensource_thermal-engine"
         remote="moto-common" revision="12" />
     <project path="vendor/qcom/opensource/thermal" name="platform_vendor_qcom_opensource_thermal"
@@ -146,22 +148,4 @@
         remote="moto-common" revision="13" />
     <project path="vendor/sony/timekeep" name="android_vendor_sony_timekeep"
         remote="moto-common" revision="12" />
-
-    <!-- Duplicate of AOSP?
-    <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl"
-        remote="moto-common" revision="12" />
-    -->
-
-    <!-- Unknown
-    <project name="android_kernel_motorola_msm-4.19"/>
-    <project name="android_kernel_motorola_msm-4.14"/>
-    <project name="android_kernel_motorola_msm-5.4"/>
-    <project name="moto_ims"/>
-    <project name="platform_vendor_goodix"/>
-    <project name="platform_hardware_qcom-caf_wlan"/>
-    <project name="vendor-qcom-opensource-audio-kernel"/>
-    <project name="vendor-qcom-opensource-wlan-qcacld-3.0"/>
-    -->
-
-
 </manifest>
