@@ -6,6 +6,8 @@
     <!-- Device Trees -->
     <project path="device/motorola/common" name="android_device_motorola_common"
         remote="moto-common" revision="13" />
+    <project path="device/motorola/targets" name="android_device_motorola_targets"
+        remote="moto-common" revision="13" />
     <!-- SM4350 (5.4) -->
     <project path="device/motorola/sm4350-common-kernel" name="android_device_motorola_sm4350-common-kernel"
         remote="moto-common" revision="13" />
