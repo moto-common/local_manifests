@@ -43,7 +43,7 @@
         remote="moto-common" revision="13" />
     <project path="device/motorola/amogus_doha" name="android_device_motorola_amogus_doha"
         remote="moto-common" revision="13" />
-    <!-- SM6150 -->
+    <!-- SM6150 (4.14) -->
     <project path="device/motorola/sm6150-common" name="android_device_motorola_sm6150-common"
         remote="moto-common" revision="13" />
     <project path="device/motorola/sm6150-common-kernel" name="android_device_motorola_sm6150-common-kernel"
@@ -52,6 +52,14 @@
         remote="moto-common" revision="13" />
     <project path="device/motorola/hanoip" name="android_device_motorola_hanoip"
         remote="moto-common" revision="13" />
+    <project path="device/motorola/kasagi-kernel" name="android_device_motorola_kasagi-kernel"
+        remote="moto-common" revision="13" />
+    <project path="device/motorola/kasagi" name="android_device_motorola_kasagi"
+        remote="moto-common" revision="13" />
+    <project path="device/motorola/okinawa-kernel" name="android_device_motorola_okinawa-kernel"
+        remote="moto-common" revision="13" />
+    <project path="device/motorola/okinawa" name="android_device_motorola_okinawa"
+        remote="moto-common" revision="13" />
     <!-- Vendor Trees -->
     <project path="vendor/motorola/common" name="android_vendor_motorola_common"
         remote="moto-common" revision="13" />
@@ -59,6 +67,8 @@
     <project path="vendor/motorola/sm4350-common" name="android_vendor_motorola_sm4350-common"
         remote="moto-common" revision="13" />
     <project path="vendor/motorola/osaka" name="android_vendor_motorola_osaka"
+        remote="moto-common" revision="13" />
+    <project path="vendor/motorola/milanf" name="android_vendor_motorola_milanf"
         remote="moto-common" revision="13" />
     <!-- SM4250 (4.19) -->
     <project path="vendor/motorola/sm4250-common" name="android_vendor_motorola_sm4250-common"
@@ -74,10 +84,14 @@
         remote="moto-common" revision="13" />
     <project path="vendor/motorola/amogus-doha" name="android_vendor_motorola_amogus_doha"
         remote="moto-common" revision="13" />
-    <!-- SM6150 -->
+    <!-- SM6150 (4.14) -->
     <project path="vendor/motorola/sm6150-common" name="android_vendor_motorola_sm6150-common"
         remote="moto-common" revision="13" />
     <project path="vendor/motorola/hanoip" name="android_vendor_motorola_hanoip"
+        remote="moto-common" revision="13" />
+    <project path="vendor/motorola/kasagi" name="android_vendor_motorola_kasagi"
+        remote="moto-common" revision="13" />
+    <project path="vendor/motorola/okinawa" name="android_vendor_motorola_okinawa"
         remote="moto-common" revision="13" />
 
     <!-- Supporting Repos -->
