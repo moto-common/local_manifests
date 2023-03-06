@@ -2,6 +2,10 @@
 <manifest>
     <remote name="moto-common"
         fetch="https://github.com/moto-common/" />
+    <remote name="aospa"
+        fetch="https://github.com/AOSPA/" />
+    <remote name="aospa-vendor"
+        fetch="https://github.com/ThankYouMario/" />
 
     <!-- Device Trees -->
     <project path="device/motorola/common" name="android_device_motorola_common"
@@ -97,9 +101,9 @@
     <!-- Supporting Repos -->
     <!-- QCOM Common -->
     <project path="device/qcom/common" name="android_device_qcom_common"
-        remote="moto-common" revision="master" />
-    <project path="vendor/qcom/common" name="android_vendor_qcom_common"
-        remote="moto-common" revision="master" />
+        remote="aospa" revision="topaz" />
+    <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common"
+        remote="aospa-vendor" revision="topaz" />
     <!-- HALs -->
     <project path="vendor/qcom/opensource/audio/sm8150" name="platform_vendor_qcom_opensource_audio_sm8150"
         remote="moto-common" revision="master" />
@@ -121,19 +125,19 @@
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/media/sm8350" name="platform_vendor_qcom_opensource_media_sm8350"
         remote="moto-common" revision="master" />
-    <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb"
-        remote="moto-common" revision="12" />
     <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator"
         remote="moto-common" revision="13" />
-    <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power"
-        remote="moto-common" revision="13" />
     <!-- Misc -->
+    <project path="device/qcom/qssi" name="android_device_qcom_qssi"
+        remote="aospa" revision="topaz" />
     <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr"
-        remote="moto-common" revision="12" />
+        remote="aospa" revision="topaz" />
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy"
         remote="moto-common" revision="13" />
     <project path="device/sony/sepolicy" name="android_device_sony_sepolicy"
         remote="moto-common" revision="master" />
+    <project path="external/fastrpc" name="android_external_fastrpc"
+        remote="aospa" revision="topaz" />
     <project path="vendor/goodix" name="platform_vendor_goodix"
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/thermal-engine" name="platform_vendor_qcom_opensource_thermal-engine"
@@ -146,7 +150,7 @@
         remote="moto-common" revision="12" />
     <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices"
         remote="moto-common" revision="master" />
-    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um"
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um"
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/audio/st-hal" name="platform_vendor_qcom_opensource_audio_st-hal"
         remote="moto-common" revision="13" />
