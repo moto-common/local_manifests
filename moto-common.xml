@@ -13,6 +13,8 @@
     <project path="device/motorola/targets" name="android_device_motorola_targets"
         remote="moto-common" revision="master" />
     <!-- SM4350 (5.4) -->
+    <project path="kernel/motorola/msm-5.4" name="android_kernel_motorola_msm-5.4"
+        remote="moto-common" revision="13-rewrite" />
     <project path="device/motorola/sm4350-common-kernel" name="android_device_motorola_sm4350-common-kernel"
         remote="moto-common" revision="13" />
     <project path="device/motorola/sm4350-common" name="android_device_motorola_sm4350-common"
@@ -26,6 +28,8 @@
     <project path="device/motorola/milanf" name="android_device_motorola_milanf"
         remote="moto-common" revision="13" />
     <!-- SM4250 (4.19) -->
+    <project path="kernel/motorola/msm-4.19" name="android_kernel_motorola_msm-4.19"
+        remote="moto-common" revision="13" />
     <project path="device/motorola/sm4250-common" name="android_device_motorola_sm4250-common"
         remote="moto-common" revision="13" />
     <project path="device/motorola/sm4250-common-kernel" name="android_device_motorola_sm4250-common-kernel"
@@ -41,6 +45,8 @@
     <project path="device/motorola/guamna" name="android_device_motorola_guamna"
         remote="moto-common" revision="13" />
     <!-- SM6125 (4.14) -->
+    <project path="kernel/motorola/msm-4.14" name="android_kernel_motorola_msm-4.14"
+        remote="moto-common" revision="13" />
     <project path="device/motorola/amogus-kernel" name="android_device_motorola_amogus-kernel"
         remote="moto-common" revision="13" />
     <project path="device/motorola/amogus" name="android_device_motorola_amogus"
