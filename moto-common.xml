@@ -144,6 +144,8 @@
         remote="moto-common" revision="master" />
     <project path="external/fastrpc" name="android_external_fastrpc"
         remote="aospa" revision="topaz" />
+    <project path="prebuilts/clang/host/linux-x86/clang-r383902" name="platform_prebuilts_clang_host_linux-x86_clang-r383902"
+        remote="moto-common" revision="master" />
     <project path="vendor/goodix" name="platform_vendor_goodix"
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/thermal-engine" name="platform_vendor_qcom_opensource_thermal-engine"
