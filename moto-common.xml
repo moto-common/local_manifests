@@ -133,7 +133,7 @@
     <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr"
         remote="aospa" revision="topaz" />
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy"
-        remote="moto-common" revision="13" />
+        remote="aospa" revision="topaz" />
     <project path="device/sony/sepolicy" name="android_device_sony_sepolicy"
         remote="moto-common" revision="master" />
     <project path="external/fastrpc" name="android_external_fastrpc"
