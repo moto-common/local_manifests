@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote name="moto-common"
+        fetch="https://github.com/moto-common/" />
+
     <remove-project name="LineageOS/android_external_ant-wireless_hidl" />
     <remove-project name="LineageOS/android_external_json-c" />
     <remove-project name="LineageOS/android_vendor_codeaurora_telephony" />
@@ -12,4 +15,9 @@
     <remove-project name="LineageOS/android_device_qcom_sepolicy" />
     <remove-project name="LineageOS/android_hardware_qcom_thermal" />
     <remove-project name="platform/external/fastrpc" />
+    <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" />
+
+    <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common"
+        remote="moto-common" revision="master" />
 </manifest>
