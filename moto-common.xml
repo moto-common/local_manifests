@@ -27,6 +27,14 @@
         remote="moto-common" revision="13" />
     <project path="device/motorola/milanf" name="android_device_motorola_milanf"
         remote="moto-common" revision="13" />
+    <project path="device/motorola/rhodep-kernel" name="android_device_motorola_rhodep-kernel"
+        remote="moto-common" revision="13" />
+    <project path="device/motorola/rhodep" name="android_device_motorola_rhodep"
+        remote="moto-common" revision="13" />
+    <project path="device/motorola/rhodei-kernel" name="android_device_motorola_rhodei-kernel"
+        remote="moto-common" revision="13" />
+    <project path="device/motorola/rhodei" name="android_device_motorola_rhodei"
+        remote="moto-common" revision="13" />
     <!-- SM4250 (4.19) -->
     <project path="kernel/motorola/msm-4.19" name="android_kernel_motorola_msm-4.19"
         remote="moto-common" revision="13" />
@@ -79,6 +87,10 @@
     <project path="vendor/motorola/osaka" name="android_vendor_motorola_osaka"
         remote="moto-common" revision="13" />
     <project path="vendor/motorola/milanf" name="android_vendor_motorola_milanf"
+        remote="moto-common" revision="13" />
+    <project path="vendor/motorola/rhodep" name="android_vendor_motorola_rhodep"
+        remote="moto-common" revision="13" />
+    <project path="vendor/motorola/rhodei" name="android_vendor_motorola_rhodei"
         remote="moto-common" revision="13" />
     <!-- SM4250 (4.19) -->
     <project path="vendor/motorola/sm4250-common" name="android_vendor_motorola_sm4250-common"
