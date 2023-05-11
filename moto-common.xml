@@ -145,6 +145,8 @@
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator"
         remote="moto-common" revision="13" />
+    <project path="vendor/qcom/opensource/commonsys/fm" name="platform_vendor_qcom_opensource_fm-commonsys"
+        remote="moto-common" revision="master" />
     <!-- Misc -->
     <project path="device/qcom/qssi" name="android_device_qcom_qssi"
         remote="aospa" revision="topaz" />
