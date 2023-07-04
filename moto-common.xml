@@ -143,6 +143,8 @@
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/media/sm8350" name="platform_vendor_qcom_opensource_media_sm8350"
         remote="moto-common" revision="master" />
+    <project path="vendor/qcom/opensource/gps-legacy" name="platform_vendor_qcom_opensource_gps-legacy"
+        remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator"
         remote="moto-common" revision="13" />
     <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl"
