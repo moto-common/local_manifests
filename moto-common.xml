@@ -180,10 +180,6 @@
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/audio/st-hal" name="platform_vendor_qcom_opensource_audio_st-hal"
         remote="moto-common" revision="13" />
-    <project path="vendor/qcom/opensource/recovery-ext" name="platform_vendor_qcom_opensource_recovery-ext"
-        remote="moto-common" revision="master" />
-    <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl"
-        remote="moto-common" revision="master" />
     <project path="external/json-c" name="platform_external_json-c"
         remote="moto-common" revision="13" />
     <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl"
