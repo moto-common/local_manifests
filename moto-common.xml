@@ -145,6 +145,10 @@
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator"
         remote="moto-common" revision="13" />
+    <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl"
+        remote="moto-common" revision="master" />
+    <project path="vendor/qcom/opensource/recovery-ext" name="platform_vendor_qcom_opensource_recovery-ext"
+        remote="moto-common" revision="master" />
     <!-- Misc -->
     <project path="device/qcom/qssi" name="android_device_qcom_qssi"
         remote="aospa" revision="topaz" />
