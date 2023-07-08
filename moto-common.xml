@@ -14,7 +14,7 @@
         remote="moto-common" revision="master" />
     <!-- SM4350 (5.4) -->
     <project path="kernel/motorola/msm-5.4" name="android_kernel_motorola_msm-5.4"
-        remote="moto-common" revision="13-rewrite" />
+        remote="moto-common" revision="13" />
     <project path="device/motorola/sm4350-common-kernel" name="android_device_motorola_sm4350-common-kernel"
         remote="moto-common" revision="13" />
     <project path="device/motorola/sm4350-common" name="android_device_motorola_sm4350-common"
