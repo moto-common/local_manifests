@@ -52,6 +52,15 @@
         remote="moto-common" revision="master" />
     <project path="device/motorola/guamna" name="android_device_motorola_guamna"
         remote="moto-common" revision="14" />
+    <!-- SM8250 (4.19) -->
+    <project path="device/motorola/sm8250-common" name="android_device_motorola_sm8250-common"
+        remote="moto-common" revision="14" />
+    <project path="device/motorola/sm8250-common-kernel" name="android_device_motorola_sm8250-common-kernel"
+        remote="moto-common" revision="master" />
+    <project path="device/motorola/nio-kernel" name="android_device_motorola_nio-kernel"
+        remote="moto-common" revision="master" />
+    <project path="device/motorola/nio" name="android_device_motorola_nio"
+        remote="moto-common" revision="14" />
     <!-- SM6125 (4.14) -->
     <project path="kernel/motorola/msm-4.14" name="android_kernel_motorola_msm-4.14"
         remote="moto-common" revision="14" />
