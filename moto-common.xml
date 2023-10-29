@@ -110,6 +110,11 @@
         remote="moto-common" revision="14" />
     <project path="vendor/motorola/guamna" name="android_vendor_motorola_guamna"
         remote="moto-common" revision="14" />
+    <!-- SM8250 (4.19) -->
+    <project path="vendor/motorola/sm8250-common" name="android_vendor_motorola_sm8250-common"
+        remote="moto-common" revision="14" />
+    <project path="vendor/motorola/nio" name="android_vendor_motorola_nio"
+        remote="moto-common" revision="14" />
     <!-- SM6125 (4.14) -->
     <project path="vendor/motorola/amogus" name="android_vendor_motorola_amogus"
         remote="moto-common" revision="14" />
