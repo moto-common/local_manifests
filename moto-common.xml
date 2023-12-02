@@ -166,6 +166,8 @@
         remote="moto-common" revision="master" />
     <project path="vendor/goodix" name="platform_vendor_goodix"
         remote="moto-common" revision="master" />
+    <project path="vendor/egistec/interfaces" name="platform_vendor_egistec_interfaces"
+        remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/thermal-engine" name="platform_vendor_qcom_opensource_thermal-engine"
         remote="moto-common" revision="12" />
     <project path="vendor/qcom/opensource/thermal" name="platform_vendor_qcom_opensource_thermal"
