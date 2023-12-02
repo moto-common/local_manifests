@@ -6,12 +6,36 @@
         fetch="https://github.com/AOSPA/" />
     <remote name="aospa-vendor"
         fetch="https://github.com/ThankYouMario/" />
+    <remote name="moto-common-vendor"
+        fetch="https://git.libremobileos.com/electimon/" />
 
     <!-- Device Trees -->
     <project path="device/motorola/common" name="android_device_motorola_common"
         remote="moto-common" revision="13" />
     <project path="device/motorola/targets" name="android_device_motorola_targets"
         remote="moto-common" revision="master" />
+    <!-- MT6879 (5.10) -->
+    <project path="kernel/motorola/mt6879" name="android_kernel_motorola_mt6879"
+        remote="moto-common" revision="13" />
+    <project path="device/motorola/mt6879-common-kernel" name="android_device_motorola_mt6879-common-kernel"
+        remote="moto-common" revision="master" />
+    <project path="device/motorola/mt6879-common" name="android_device_motorola_mt6879-common"
+        remote="moto-common" revision="13" />
+    <project path="device/motorola/tesla-kernel" name="android_device_motorola_tesla-kernel"
+        remote="moto-common" revision="master" />
+    <project path="device/motorola/tesla" name="android_device_motorola_tesla"
+        remote="moto-common" revision="13" />
+    <!-- MT6768 (4.19) -->
+    <project path="kernel/motorola/mt6768" name="android_kernel_motorola_mt6768"
+        remote="moto-common" revision="13" />
+    <project path="device/motorola/mt6768-common-kernel" name="android_device_motorola_mt6768-common-kernel"
+        remote="moto-common" revision="master" />
+    <project path="device/motorola/mt6768-common" name="android_device_motorola_mt6768-common"
+        remote="moto-common" revision="13" />
+    <project path="device/motorola/cofud-kernel" name="android_device_motorola_cofud-kernel"
+        remote="moto-common" revision="master" />
+    <project path="device/motorola/cofud" name="android_device_motorola_cofud"
+        remote="moto-common" revision="13" />
     <!-- SM4350 (5.4) -->
     <project path="kernel/motorola/msm-5.4" name="android_kernel_motorola_msm-5.4"
         remote="moto-common" revision="13" />
@@ -81,6 +105,16 @@
     <!-- Vendor Trees -->
     <project path="vendor/motorola/common" name="android_vendor_motorola_common"
         remote="moto-common" revision="13" />
+    <!-- MT6879 (5.10) -->
+    <project path="vendor/motorola/mt6879-common" name="android_vendor_motorola_mt6879-common"
+        remote="moto-common" revision="13" />
+    <project path="vendor/motorola/tesla" name="android_vendor_motorola_tesla"
+        remote="moto-common" revision="13" />
+    <!-- MT6768 (4.19) -->
+    <project path="vendor/motorola/mt6768-common" name="android_vendor_motorola_mt6768-common"
+        remote="moto-common" revision="13" />
+    <project path="vendor/motorola/cofud" name="android_vendor_motorola_cofud"
+        remote="moto-common" revision="13" />
     <!-- SM4350 (5.4) -->
     <project path="vendor/motorola/sm4350-common" name="android_vendor_motorola_sm4350-common"
         remote="moto-common" revision="13" />
@@ -122,6 +156,11 @@
         remote="aospa" revision="topaz" />
     <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common"
         remote="aospa-vendor" revision="topaz" />
+    <!-- MTK Common -->
+    <project path="device/mediatek/common" name="android_device_mediatek_common"
+        remote="moto-common" revision="master" />
+    <project path="vendor/mediatek/common" name="android_vendor_mediatek_common"
+        remote="moto-common-vendor" revision="master" />
     <!-- HALs -->
     <project path="vendor/qcom/opensource/audio/sm8150" name="platform_vendor_qcom_opensource_audio_sm8150"
         remote="moto-common" revision="master" />
@@ -151,7 +190,11 @@
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/recovery-ext" name="platform_vendor_qcom_opensource_recovery-ext"
         remote="moto-common" revision="master" />
+    <project path="hardware/mediatek" name="platform_hardware_mediatek"
+        remote="moto-common" revision="master" />
     <!-- Misc -->
+    <project path="device/mediatek/sepolicy_vndr" name="platform_device_mediatek_sepolicy_vndr"
+        remote="moto-common" revision="master" />
     <project path="device/qcom/qssi" name="android_device_qcom_qssi"
         remote="aospa" revision="topaz" />
     <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr"
