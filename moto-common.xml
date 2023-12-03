@@ -13,7 +13,7 @@
     <project path="device/motorola/common" name="android_device_motorola_common"
         remote="moto-common" revision="13" />
     <project path="device/motorola/targets" name="android_device_motorola_targets"
-        remote="moto-common" revision="master" />
+        remote="moto-common" revision="13" />
     <!-- MT6879 (5.10) -->
     <project path="kernel/motorola/mt6879" name="android_kernel_motorola_mt6879"
         remote="moto-common" revision="13" />
@@ -208,6 +208,8 @@
     <project path="prebuilts/clang/host/linux-x86/clang-r383902" name="platform_prebuilts_clang_host_linux-x86_clang-r383902"
         remote="moto-common" revision="master" />
     <project path="vendor/goodix" name="platform_vendor_goodix"
+        remote="moto-common" revision="master" />
+    <project path="vendor/egistec/interfaces" name="platform_vendor_egistec_interfaces"
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/thermal-engine" name="platform_vendor_qcom_opensource_thermal-engine"
         remote="moto-common" revision="12" />
