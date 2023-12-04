@@ -188,6 +188,10 @@
         remote="moto-common" revision="13" />
     <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl"
         remote="moto-common" revision="master" />
+    <project path="hardware/samsung/nfc" name="platform_hardware_samsung_nfc"
+        remote="moto-common" revision="master" />
+    <project path="hardware/st/nfc" name="platform_hardware_st_nfc"
+        remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/recovery-ext" name="platform_vendor_qcom_opensource_recovery-ext"
         remote="moto-common" revision="master" />
     <project path="hardware/mediatek" name="platform_hardware_mediatek"
