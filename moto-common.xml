@@ -6,6 +6,11 @@
         fetch="https://github.com/AOSPA/" />
     <remote name="aospa-vendor"
         fetch="https://github.com/ThankYouMario/" />
+    <!-- CLO -->
+    <remote name="clo-la"
+            fetch="https://git.codelinaro.org/clo/la"
+            sync-c="true"
+            sync-tags="false" />
 
     <!-- Device Trees -->
     <project path="device/motorola/common" name="android_device_motorola_common"
@@ -171,6 +176,7 @@
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/recovery-ext" name="platform_vendor_qcom_opensource_recovery-ext"
         remote="moto-common" revision="master" />
+    <project remote="clo-la" name="platform/vendor/qcom-opensource/healthd-ext" path="vendor/qcom/opensource/healthd-ext" revision="18028fe2c6bb3ef65ccb90639e15b74132a28a50" upstream="refs/heads/android-core.lnx.13.0.r1-rel"/>
     <!-- Misc -->
     <project path="device/qcom/qssi" name="android_device_qcom_qssi"
         remote="aospa" revision="uvite" />
