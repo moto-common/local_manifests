@@ -140,7 +140,7 @@
     <!-- SM6125 (4.14) -->
     <project path="vendor/motorola/amogus" name="android_vendor_motorola_amogus"
         remote="moto-common" revision="13" />
-    <project path="vendor/motorola/amogus-doha" name="android_vendor_motorola_amogus_doha"
+    <project path="vendor/motorola/amogus_doha" name="android_vendor_motorola_amogus_doha"
         remote="moto-common" revision="13" />
     <!-- SM6150 (4.14) -->
     <project path="vendor/motorola/sm6150-common" name="android_vendor_motorola_sm6150-common"
