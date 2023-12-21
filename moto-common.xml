@@ -202,7 +202,7 @@
         remote="moto-common" revision="master" />
     <!-- Misc -->
     <project path="device/mediatek/sepolicy_vndr" name="platform_device_mediatek_sepolicy_vndr"
-        remote="moto-common" revision="master" />
+        remote="moto-common" revision="13" />
     <project path="device/qcom/qssi" name="android_device_qcom_qssi"
         remote="aospa" revision="topaz" />
     <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr"
