@@ -132,6 +132,8 @@
         remote="moto-common" revision="13" />
     <project path="vendor/motorola/rhodei" name="android_vendor_motorola_rhodei"
         remote="moto-common" revision="13" />
+    <project path="vendor/motorola/corfuq" name="android_vendor_motorola_corfuq"
+        remote="moto-common" revision="13" />
     <!-- SM4250 (4.19) -->
     <project path="vendor/motorola/sm4250-common" name="android_vendor_motorola_sm4250-common"
         remote="moto-common" revision="13" />
