@@ -65,6 +65,10 @@
         remote="moto-common" revision="13" />
     <project path="device/motorola/corfuq" name="android_device_motorola_corfuq"
         remote="moto-common" revision="13" />
+    <project path="device/motorola/corfur-kernel" name="android_device_motorola_corfur-kernel"
+        remote="moto-common" revision="13" />
+    <project path="device/motorola/corfur" name="android_device_motorola_corfur"
+        remote="moto-common" revision="13" />
     <!-- SM4250 (4.19) -->
     <project path="kernel/motorola/msm-4.19" name="android_kernel_motorola_msm-4.19"
         remote="moto-common" revision="13" />
@@ -133,6 +137,8 @@
     <project path="vendor/motorola/rhodei" name="android_vendor_motorola_rhodei"
         remote="moto-common" revision="13" />
     <project path="vendor/motorola/corfuq" name="android_vendor_motorola_corfuq"
+        remote="moto-common" revision="13" />
+    <project path="vendor/motorola/corfur" name="android_vendor_motorola_corfur"
         remote="moto-common" revision="13" />
     <!-- SM4250 (4.19) -->
     <project path="vendor/motorola/sm4250-common" name="android_vendor_motorola_sm4250-common"
