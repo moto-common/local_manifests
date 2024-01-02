@@ -61,6 +61,10 @@
         remote="moto-common" revision="13" />
     <project path="device/motorola/rhodei" name="android_device_motorola_rhodei"
         remote="moto-common" revision="13" />
+    <project path="device/motorola/corfuq-kernel" name="android_device_motorola_corfuq-kernel"
+        remote="moto-common" revision="13" />
+    <project path="device/motorola/corfuq" name="android_device_motorola_corfuq"
+        remote="moto-common" revision="13" />
     <!-- SM4250 (4.19) -->
     <project path="kernel/motorola/msm-4.19" name="android_kernel_motorola_msm-4.19"
         remote="moto-common" revision="13" />
