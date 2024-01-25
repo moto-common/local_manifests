@@ -227,8 +227,7 @@
         remote="aospa" revision="uvite" />
     <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr"
         remote="aospa" revision="uvite" />
-    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy"
-        remote="aospa" revision="uvite" />
+    <project remote="clo-la" name="device/qcom/sepolicy" path="device/qcom/sepolicy" revision="33176e1cb059b7dee654b84b018e292f87cb5415" upstream="refs/heads/qvr-sys.lnx.13.0.r4-rel"/>
     <project path="device/sony/sepolicy" name="android_device_sony_sepolicy"
         remote="moto-common" revision="master" />
     <project path="external/fastrpc" name="android_external_fastrpc"
