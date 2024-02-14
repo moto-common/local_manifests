@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<manifest>
-  <remote name="moto-common" fetch="https://github.com/moto-common/" />
-  <remove-project name="platform/external/fastrpc" />
-</manifest>
