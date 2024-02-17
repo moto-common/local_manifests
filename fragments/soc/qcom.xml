@@ -53,7 +53,7 @@
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices"
         remote="moto-common" revision="master" />
-    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr-um"
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr"
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um"
         remote="moto-common" revision="master" />
