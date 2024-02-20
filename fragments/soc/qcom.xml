@@ -11,11 +11,15 @@
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/audio/sm8350" name="platform_vendor_qcom_opensource_audio_sm8350"
         remote="moto-common" revision="master" />
+    <project path="vendor/qcom/opensource/audio/sm8450" name="platform_vendor_qcom_opensource_audio_sm8450"
+        remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/display/sm8150" name="platform_vendor_qcom_opensource_display_sm8150"
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/display/sm8250" name="platform_vendor_qcom_opensource_display_sm8250"
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/display/sm8350" name="platform_vendor_qcom_opensource_display_sm8350"
+        remote="moto-common" revision="master" />
+    <project path="vendor/qcom/opensource/display/sm8450" name="platform_vendor_qcom_opensource_display_sm8450"
         remote="moto-common" revision="master" />
     <project path="vendor/qcom/opensource/display-commonsys-intf" name="platform_vendor_qcom_opensource_display-commonsys-intf"
         remote="moto-common" revision="master" />
