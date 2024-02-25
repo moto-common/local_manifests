@@ -22,6 +22,10 @@
         remote="moto-common" revision="master" />
     <project path="device/motorola/rhodei" name="android_device_motorola_rhodei"
         remote="moto-common" revision="14" />
+    <project path="device/motorola/bangkk-kernel" name="android_device_motorola_bangkk-kernel"
+        remote="moto-common" revision="master" />
+    <project path="device/motorola/bangkk" name="android_device_motorola_bangkk"
+        remote="moto-common" revision="14" />
     <project path="vendor/motorola/sm4350-common" name="android_vendor_motorola_sm4350-common"
         remote="moto-common" revision="14" />
     <project path="vendor/motorola/osaka" name="android_vendor_motorola_osaka"
@@ -31,5 +35,7 @@
     <project path="vendor/motorola/rhodep" name="android_vendor_motorola_rhodep"
         remote="moto-common" revision="14" />
     <project path="vendor/motorola/rhodei" name="android_vendor_motorola_rhodei"
+        remote="moto-common" revision="14" />
+    <project path="vendor/motorola/bangkk" name="android_vendor_motorola_bangkk"
         remote="moto-common" revision="14" />
 </manifest>
